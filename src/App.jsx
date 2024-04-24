@@ -1,7 +1,8 @@
 
 import './App.css'
+import { ContadorFuncion } from './components/ContadorFuncion'
 import MiBoton from './components/MiBoton'
-import ContadorClase from './components/ContadorClase'
+
 
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
     <>
       <MiBoton texto='Mi 
       Botón' />
-      <ContadorClase />
+      <ContadorFuncion />
     </>
   )
 }
